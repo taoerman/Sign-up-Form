@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up-form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                 <div class="logo-image"><img src="./images/odin-lined.png" alt="the logo"></div>
+                 <div class="logo-title"><p>ODIN</p></div>
+            </div>
+         </div>
+
+         <div class="right">
+            <div class="introduction">
+                <p class="introduction-content">
+                    This is not a real service! You know you need something like
+                    this in your life to help you realize your deepest dreams. Sign up
+                    <span>now</span> to get started!
+                    <br>
+                    <br>
+                    You <span>know</span> you want to.
+                </p>
+            </div>
+
+            <div class="sign-up-form">
+                <form action="/my">
+                    <legend>Let's do this!</legend>
+                    <div class="form-content">
+                        <fieldset class="name">
+                            <div class="first-name">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id="first-name">
+                            </div>
+                            <div class="last-name">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id="last-name">
+                            </div>
+                        </fieldset>
+                        <fieldset class="contact-info">
+                            <div class="email">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="phone-number">
+                                <label for="phone-number">PHONE</label>
+                                <input type="text" id="phone-number">
+                            </div>
+                        </fieldset>
+                        <fieldset class="password-info">
+                            <div class="password">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password">
+                            </div>
+                            <div class="confirm-password">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm-password">
+                            </div>
+                        </fieldset>
+                    </div>
+                    
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+
+            <div class="extra-info">
+                <span>Already have an account?</span>
+                <a href="https://www.example.com">Login in</a>
+             </div>
+         </div>
+
+         
+    </div>
+</body>
+</html>

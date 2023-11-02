@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./MyFont/Norse-Bold.otf') format('opentype');
+}
+
+
+.container {
+    display: flex;
+    height: 600px;
+}
+
+.left {
+    height: 100vh;
+    width: 33.33%;
+    display: flex;
+    background-image: url('./images/backgroud.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.left .logo {
+    justify-content: center;
+    margin-top: 225px;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7; 
+}
+
+.left .logo .logo-image {
+    height: 100%;
+    width: auto;
+}
+
+.left .logo .logo-title {
+    height: auto;
+    width: auto;
+    opacity: 1;
+}
+
+.left .logo .logo-title p {
+    font-family: 'MyFont';
+    margin-top: 40px;
+    font-size: 100px;
+    color: white;
+}
+
+.left .logo .logo-image img {
+    height: 100%;
+    width: auto;
+}
+
+.right {
+    height: 100vh;
+    width: 66.66%;
+}
+.right .introduction {
+    margin-left: 47px;
+    margin-top: 177px;
+    height: auto;
+    width: 670px;
+}
+
+.right .introduction .introduction-content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:28px;
+    font-weight: 800;
+}
+.right .introduction .introduction-content span {
+    font-style: italic;
+}
+
+.right .sign-up-form {
+    width: 100%;
+    height: auto;
+}
+.right .sign-up-form form {
+    margin-left: 47px;
+    margin-top: 68px;
+    
+}
+.right .sign-up-form form legend  {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    font-size: 10px;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  input {
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+.right .sign-up-form form .form-content {
+    box-shadow: 3px 3px 3px gray;
+}
+.right .sign-up-form form .form-content .name {
+    display: flex;
+    gap: 30px;
+    justify-content:flex-start;
+    border: 0ch;
+}
+.right .sign-up-form form .form-content .contact-info {
+    display: flex;
+    gap: 30px;
+    justify-content:flex-start;
+    border: 0ch;
+}
+.right .sign-up-form form .form-content .password-info {
+    display: flex;
+    gap: 30px;
+    justify-content:flex-start;
+    border: 0ch;
+}
+
+.right .sign-up-form form  button {
+    margin-left: 13px;
+    width: 230px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #3f5c1c;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    font-size: larger;
+}
+
+.right .extra-info {
+    width: auto;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.right .extra-info span {
+    width: auto;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.right .extra-info a {
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: #3f5c1c;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
